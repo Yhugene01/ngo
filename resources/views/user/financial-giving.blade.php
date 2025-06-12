@@ -1,4 +1,3 @@
-
 <x-app-layout>
     <!--==============================
     Breadcumb
@@ -16,9 +15,9 @@
     </div><!--==============================
 Blog Area
 ==============================-->
-    <section class="donation-details space-top space-extra2-bottom">
+    <section class="donation-details">
         <div class="container">
-            <div class="row gx-40">
+            <div class="row gx-40 d-flex justify-content-center align-items-center vh-100">
                 <div class="col-xxl-8 col-lg-7">
                     <div class="donation-form-v1">
 
@@ -30,7 +29,11 @@ Blog Area
                             <div class="row">
                                 <div class="form-group style-border col-md-6">
                                     <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Account Number">
+                                        placeholder="Pay into this account">
+                                </div>
+                                <div class="form-group style-border col-md-6">
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="2180234567 GTB">
                                 </div>
                                 <div class="form-btn col-12">
                                     <button class="th-btn"><i class="fas fa-heart me-2"></i> Donate Now</button>
@@ -42,27 +45,6 @@ Blog Area
                         <p class="form-messages mb-0 mt-3"></p>
 
                     </div>
-                </div>
-                <div class="col-xxl-4 col-lg-5">
-                    <aside class="sidebar-area donation-sidebar">
-                        <div class="widget  ">
-                            <div class="widget-donation-card">
-                                <div class="box-content">
-                                    <div class="box-thumb">
-                                        <a href="blog-details.html"><img
-                                                src="/assets/img/widget/widget-donation_card1_1.jpg"
-                                                alt="Blog Image"></a>
-                                    </div>
-                                    <h4 class="box-title"><a class="text-inherit" href="blog-details.html">Give
-                                            health
-                                            support for every
-                                            homeless poor children</a></h4>
-                                    <p class="box-text">Join our community of dedicated supporters by
-                                        becoming a member.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
                 </div>
             </div>
         </div>

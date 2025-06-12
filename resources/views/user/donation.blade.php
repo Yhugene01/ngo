@@ -22,8 +22,8 @@ Donation Area
                     <div class="title-area text-center">
                         <span class="sub-title before-none after-none"><i class="far fa-heart text-theme"></i> Lets
                             Start Donating</span>
-                        <h2 class="sec-title">See Your Impact: Transparent
-                            Donation Causes</h2>
+                        <h2 class="sec-title">Support a Cause That Matters:
+                            Save Lives</h2>
                     </div>
                 </div>
             </div>
@@ -32,14 +32,13 @@ Donation Area
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="/assets/img/donation/donation2-1.png" alt="image">
-                            <div class="donation-card-tag">85%</div>
                             <div class="donation-card-shape"
                                 data-mask-src="/assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Medical equipment and mobility/assistive
                                     devices</a></h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.
+                            <p>Your donation of medical equipment can bring healing and hope to underserved communities. Whether it's mobility devices, diagnostic tools, or hospital supplies, every item helps improve care and save lives. Join our mission to support healthcare where it's needed most. Donate today and make a lasting impact.
                             </p>
                             <div class="donation-card_progress-wrap">
 
@@ -54,13 +53,16 @@ Donation Area
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="/assets/img/donation/donation2-2.png" alt="image">
-                            <div class="donation-card-tag bg-theme2">85%</div>
                             <div class="donation-card-shape"
                                 data-mask-src="/assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Financial Giving</a></h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.
+                            <p>
+                                Your donation can make a real difference. By contributing to our charity program, you
+                                help provide medical equipment and mobility/assistive devices to those in need.
+                                Every amount counts—no matter how small. Join us in spreading hope and changing lives.
+                                Donate today!
                             </p>
 
                             <a href="{{ route('user.financial.giving') }}" class="th-btn style6 mt-5">Donate Now <i
@@ -73,13 +75,12 @@ Donation Area
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="/assets/img/donation/donation2-3.png" alt="image">
-                            <div class="donation-card-tag">85%</div>
                             <div class="donation-card-shape"
                                 data-mask-src="/assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Volunteer Opportunities</a></h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.
+                            <p>Join our team of passionate volunteers and help create positive change in your community. Whether it’s a few hours a week or just one event, your time can make a real impact. Learn new skills, meet great people, and give back in a meaningful way. Sign up now and be the change!.
                             </p>
                             <a href="{{ route('user.volunteer') }}" class="th-btn style6">Volunteer now<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>

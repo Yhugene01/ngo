@@ -1,4 +1,4 @@
-<x-admin-layout>
+{{-- <x-admin-layout>
     <div class="row m-0">
         <div class="col-12 p-0">
           <div class="login-card login-dark">
@@ -14,9 +14,6 @@
                       <div class="col-6">
                         <input class="form-control" type="text" required="" placeholder="name" name="name">
                       </div>
-                      {{-- <div class="col-6">
-                        <input class="form-control" type="text" required="" placeholder="Last name">
-                      </div> --}}
                     </div>
                   </div>
                   <div class="form-group">
@@ -55,4 +52,4 @@
           </div>
         </div>
       </div>
-</x-admin-layout>
+</x-admin-layout> --}}

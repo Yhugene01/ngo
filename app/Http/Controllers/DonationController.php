@@ -37,12 +37,10 @@ class DonationController extends Controller
 
         ]);
 
-        // dd('i got here');
-
 
         // Create donation
         $donation = new Donation();
-        $donation->User_id = Auth::id();
+        $donation->id = Auth::id();
         $donation->name = $request->name;
         $donation->address = $request->address;
         $donation->postal_address = $request->postal_address;
@@ -79,9 +77,9 @@ class DonationController extends Controller
         ]);
 
 
-        // Create donation
+        // Create Volunteer
         $volunteer = new Volunteer();
-        $volunteer->User_id = Auth::id();
+        $volunteer->id = Auth::id();
         $volunteer->name = $request->name;
         $volunteer->address = $request->address;
         $volunteer->postal_address = $request->postal_address;

@@ -23,14 +23,7 @@
                                             <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
                                                 Make World Better </span>
                                         </h1>
-                                        <div class="btn-wrap justify-content-center" data-ani="slideinup"
-                                            data-ani-delay="0.7s">
-                                            <a href="{{ route('user.contact.us') }}" class="th-btn style4">Contact Us <i
-                                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                                class="th-btn style5 popup-video"><i class="fas fa-play me-2"></i> Watch
-                                                Video</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +35,7 @@
                     <div class="hero-inner" data-bg-src="/assets/img/hero/hero_bg_1_2.jpg" data-overlay="black4"
                         data-opacity="5">
                         <div class="hero-bg-shape1-1">
-                            {{-- <img src="/assets/img/hero/hero-bg-shape1-1.png" alt="img"> --}}
+                            <img src="/assets/img/hero/hero-bg-shape1-1.png" alt="img">
                         </div>
                         <div class="container">
                             <div class="row justify-content-center">
@@ -56,14 +49,7 @@
                                             <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
                                                 Every Heart Matters </span>
                                         </h1>
-                                        <div class="btn-wrap justify-content-center" data-ani="slideinup"
-                                            data-ani-delay="0.7s">
-                                            <a href="{{ route('user.contact.us') }}" class="th-btn style4">Discover Now <i
-                                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                                class="th-btn style5 popup-video"><i class="fas fa-play me-2"></i> Watch
-                                                Video</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -108,11 +94,13 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="service-card">
                         <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/volunteering.png" width="80" height="80" alt="Icon">
+                            <img src="/assets/img/icon/service-icon/volunteering.png" width="80" height="80"
+                                alt="Icon">
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="{{ route('user.volunteer') }}">Become a volunteer</a></h3>
-                            <p class="box-text">Together, we can create a better world by contributing to projects that benefits individuals and our communities. Join us now.</p>
+                            <p class="box-text">Together, we can create a better world by contributing to projects that
+                                benefits individuals and our communities. Join us now.</p>
                             <a href="{{ route('user.volunteer') }}" class="th-btn">Join Us Today<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
@@ -121,11 +109,14 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="service-card">
                         <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/heart.png" width="80" height="80" alt="Icon">
+                            <img src="/assets/img/icon/service-icon/heart.png" width="80" height="80"
+                                alt="Icon">
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="{{ route('user.donation') }}">Donate now</a></h3>
-                            <p class="box-text">Join us in putting smiles on the face of millions of people by donating to our charity program, either by monetary donations or in providing medical equipment.</p>
+                            <p class="box-text">Join us in putting smiles on the face of millions of people by donating
+                                to our charity program, either by monetary donations or in providing medical equipment.
+                            </p>
                             <a href="{{ route('user.donation') }}" class="th-btn">Donate here<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
@@ -134,11 +125,14 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="service-card">
                         <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/wheelchair.png" width="80" height="80" alt="Icon">
+                            <img src="/assets/img/icon/service-icon/wheelchair.png" width="80" height="80"
+                                alt="Icon">
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.outreach.request') }}">Request for Medical equipment</a></h3>
-                            <p class="box-text">Request for health/social care, mobility device, as an individual or organisation and also request for community healthcare outreach.</p>
+                            <h3 class="box-title"><a href="{{ route('user.outreach.request') }}">Request for Medical
+                                    equipment</a></h3>
+                            <p class="box-text">Request for health/social care, mobility device, as an individual or
+                                organisation and also request for community healthcare outreach.</p>
                             <a href="{{ route('user.outreach.request') }}" class="th-btn">Request Now<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
@@ -147,12 +141,15 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="service-card">
                         <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/handshake.png" width="80" height="80" alt="Icon">
+                            <img src="/assets/img/icon/service-icon/handshake.png" width="80" height="80"
+                                alt="Icon">
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.volunteer') }}">Partner With Us Today</a></h3>
-                            <p class="box-text">We believe that together, we can make a greater impact. Support our cause through financial contributions or in-kind donations.</p>
-                            <a href="{{ route('user.volunteer') }}" class="th-btn">Partner With Us<i
+                            <h3 class="box-title"><a href="{{ route('user.contact.us') }}">Contact us</a></h3>
+                            <p class="box-text">We would love to hear from you! Whether you have questions, want to
+                                partner with us, or are looking for ways to support our mission, feel free to reach out.
+                            </p>
+                            <a href="{{ route('user.contact.us') }}" class="th-btn">Contact Us<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
                     </div>
@@ -185,20 +182,29 @@
                         <div class="title-area mb-30">
                             <span class="sub-title before-none">About Us: Donate4Health</span>
                             <h2 class="sec-title">We Believe that We can Save More Life's with you</h2>
-                            <p class="">Donate4Health Initiative is a non-governmental organization committed to providing medical equipment and mobility/assistive devices for underprivileged individuals and health or social care facilities, particularly in disadvantaged and geographically underserved areas of Nigeria. We promote sustainability by repurposing donated medical equipment and mobility/assistive devices from individuals and organisations locally and internationally. Additionally, we utilise monetary contributions from philanthropists and local or international organisations to purchase medical equipment and mobility/assistive devices, as well as to organise outreaches, manage logistics, and support other activities related to the Donate4Health Initiative.</p>
+                            <p class="">Donate4Health Initiative is a non-governmental organization committed to
+                                providing medical equipment and mobility/assistive devices for underprivileged
+                                individuals and health or social care facilities, particularly in disadvantaged and
+                                geographically underserved areas of Nigeria. We promote sustainability by repurposing
+                                donated medical equipment and mobility/assistive devices from individuals and
+                                organisations locally and internationally. Additionally, we utilise monetary
+                                contributions from philanthropists and local or international organisations to purchase
+                                medical equipment and mobility/assistive devices, as well as to organise outreaches,
+                                manage logistics, and support other activities related to the Donate4Health Initiative.
+                            </p>
                         </div>
                         <div class="checklist style2 list-two-column">
                             <ul>
 
                                 <li data-theme-color="var(--theme-color2)">Charity For Mobility Devices</li>
-                                <li data-theme-color="#FF5528">Charity For Health Care</li>
-                                <li data-theme-color="bg-success">Charity For Social Care</li>
-                                <li data-theme-color="#122F2A">Charity For Medical Equipment</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Health Care</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Social Care</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Medical Equipment</li>
 
                             </ul>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="{{ route('about.us') }}" class="th-btn">About More<i
+                            <a href="{{ route('about.us') }}" class="th-btn">About more<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
                     </div>
@@ -219,8 +225,9 @@
                             data-mask-src="/assets/img/shape/cta_shape1_1.png">
                             <img src="/assets/img/shape/cta_shape1_1.png" alt="img">
                         </div>
-                        <h3 class="box-title">Become a volunteer</h3>
-                        <p class="box-text">Together, we can create a better world by contributing to projects that benefits individuals and our communities, join us today and become a volunteer</p>
+                        <h3 class="box-title">Volunteer Now</h3>
+                        <p class="box-text">Together, we can create a better world by contributing to projects that
+                            benefits individuals and our communities, join us today and become a volunteer</p>
                         <a href="{{ route('user.volunteer') }}" class="th-btn style5">Join us now<i
                                 class="fas fa-arrow-up-right ms-2"></i></a>
                     </div>
@@ -232,7 +239,8 @@
                             <img src="/assets/img/shape/cta_shape1_1.png" alt="img">
                         </div>
                         <h3 class="box-title">Donate now</h3>
-                        <p class="box-text">Join us in putting smiles on the face of millions of people by donating to our charity program, either by monetary donations or in providing medical equipment.</p>
+                        <p class="box-text">Join us in putting smiles on the face of millions of people by donating to
+                            our charity program, either by monetary donations or in providing medical equipment.</p>
                         <a href="{{ route('user.donation') }}" class="th-btn style5">Donate here<i
                                 class="fas fa-arrow-up-right ms-2"></i></a>
                     </div>
@@ -243,9 +251,10 @@
                             data-mask-src="/assets/img/shape/cta_shape1_1.png">
                             <img src="/assets/img/shape/cta_shape1_1.png" alt="img">
                         </div>
-                        <h3 class="box-title">Contact US</h3>
-                        <p class="box-text">We'd love to hear from you! Whether you have questions, want to partner with us, or are looking for ways to support our mission, feel free to reach out.</p>
-                        <a href="{{ route('user.contact.us') }}" class="th-btn style5">Contact us<i
+                        <h3 class="box-title">Request now</h3>
+                        <p class="box-text">Request for health/social care, mobility device, as an individual or
+                            organisation and also request for us to participate in community healthcare outreach.</p>
+                        <a href="{{ route('user.outreach.request') }}" class="th-btn style5">Request Now<i
                                 class="fas fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -258,72 +267,6 @@
         <div class="shape-mockup donation-bg-shape1-1" data-bottom="0" data-right="0"><img
                 src="/assets/img/shape/donation-shape1-1.png" alt="shape"></div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="title-area text-center">
-                        <span class="sub-title">Lets Start Donating</span>
-                        <h2 class="sec-title">See Your Impact: Who We Help</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="donationSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}, "autoHeight": "true"}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="donation-card" data-theme-color="">
-                                <div class="donation-card-shape"
-                                    data-mask-src="/assets/img/donation/donation-card-bg-shape1-1.png"></div>
-                                <div class="box-thumb">
-                                    <img src="/assets/img/donation/donation1-1.png" alt="image">
-                                    <div class="donation-card-tag">85%</div>
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title">Join us in putting smiles on the face of millions of people by donating to our charity program, either by monetary donations or in providing medical equipment.
-                                    </a></h3>
-                                    <a href="{{ route('user.medical.equipment') }}" class="th-btn style6">Donate Now <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="donation-card" data-theme-color="var(--theme-color2)">
-                                <div class="donation-card-shape"
-                                    data-mask-src="/assets/img/donation/donation-card-bg-shape1-1.png"></div>
-                                <div class="box-thumb">
-                                    <img src="/assets/img/donation/donation1-2.png" alt="image">
-                                    <div class="donation-card-tag">85%</div>
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title">Your generosity fuels the impact we make. Every donation helps us reach more lives, provide critical support, and drive lasting change in the communities we serve.
-                                    </a></h3>
-                                    <a href="{{ route('user.financial.giving') }}" class="th-btn style6">Financial Givings<i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="donation-card" data-theme-color="#FF5528">
-                                <div class="donation-card-shape"
-                                    data-mask-src="/assets/img/donation/donation-card-bg-shape1-1.png"></div>
-                                <div class="box-thumb">
-                                    <img src="/assets/img/donation/donation1-3.png" alt="image">
-                                    <div class="donation-card-tag">85%</div>
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title">Request for medical/mobility equipment and also request for health outreaches in your community,and our participation in organised outreaches.
-                                    </a></h3>
-                                    <a href="{{ route('user.outreach.request') }}" class="th-btn style6">Request Now <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!--==============================
@@ -344,9 +287,7 @@
                 <div class="col-lg-7">
                     <div class="title-area text-center mb-0">
                         <h2 class="sec-title text-white">Our Doors Are Always Open to More People Who Want to Support
-                            Each Others!</h2>
-                        <a href="{{ route('user.partner.with.us') }}" class="th-btn style5 mt-40">Get Involved <i
-                                class="fas fa-arrow-up-right ms-2"></i></a>
+                            Each Other!</h2>
                     </div>
                 </div>
             </div>
@@ -374,10 +315,6 @@
                                 power of compassion.</p>
                             <div class="quote-icon" data-mask-src="/assets/img/icon/quote.svg"></div>
                         </div>
-                        <div class="year-counter">
-                            <p class="year-counter_text">Years of <span>Experience</span></p>
-                            <div class="year-counter_number"><span class="counter-number">16</span></div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-5">
@@ -387,10 +324,7 @@
                             <h2 class="sec-title">We Help Fellow Nonprofits Access the Funding Tools, Training</h2>
                             <p class="mt-30">Our secure online donation platform allows you to make contributions
                                 quickly and safely. Choose from various payment methods and set up one-time.exactly.</p>
-                            <div class="btn-wrap mt-35">
-                                <a href="about.html" class="th-btn style-border">Our Success Story <i
-                                        class="fas fa-arrow-up-right ms-2"></i></a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -398,396 +332,7 @@
             </div>
         </div>
     </div><!--==============================
-    Team Area
-    ==============================-->
-    <section class="space-bottom team-area-1">
-        <div class="shape-mockup team-bg-shape1-1 spin d-xxl-block d-none" data-top="0%" data-right="3%"><img
-                src="/assets/img/shape/hand-group-shape1.png" alt="img"></div>
-        <div class="container">
-            <div class="title-area text-center">
-                <span class="sub-title">Our Volunteer</span>
-                <h2 class="sec-title">Meet The Optimistic Volunteer</h2>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow team-slider1" id="teamSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
-                    <div class="swiper-wrapper">
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_1.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Michel Connor</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_2.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Joseph Alexander</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_3.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Jessica Lauren</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_4.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_1.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Michel Connor</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_2.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Joseph Alexander</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_3.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Jessica Lauren</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="/assets/img/team/team_1_4.png" alt="Team">
-                                    </div>
-                                    <div class="team-social-hover">
-                                        <a href="#" class="team-social-hover_btn">
-                                            <i class="far fa-plus"></i>
-                                        </a>
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://twitter.com/"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://behance.com/"><i
-                                                    class="fab fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <button data-slider-prev="#teamSlider1" class="slider-arrow slider-prev"><i
-                        class="far fa-arrow-left"></i></button>
-                <button data-slider-next="#teamSlider1" class="slider-arrow slider-next"><i
-                        class="far fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section><!--==============================
-    Video Area
-    ==============================-->
-    <div class="video-area-1 space bg-theme overflow-hidden">
-        <div class="shape-mockup video-bg-shape1-1" data-top="0" data-left="0">
-            <img src="/assets/img/shape/video_shape1_1.png" alt="img">
-        </div>
-        <div class="shape-mockup video-bg-shape1-2" data-bottom="0" data-right="0">
-            <img src="/assets/img/shape/video_shape1_2.png" alt="img">
-        </div>
-        <div class="container">
-            <div class="row gy-40 justify-content-between">
-                <div class="col-lg-5">
-                    <div class="title-area mb-35">
-                        <h2 class="sec-title text-white">We Always Help The
-                            Needy People</h2>
-                        <p class="text-white">Discover the inspiring stories of individuals and communities transformed
-                            by our programs. Our success stories highlight the real-life impact of your donations.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 counter-card-wrap">
-                            <div class="counter-card">
-                                <h2 class="box-number text-theme2"><span class="counter-number">15</span>k<span
-                                        class="fw-light">+</span></h2>
-                                <p class="box-text text-white">Incredible Volunteers</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 counter-card-wrap">
-                            <div class="counter-card">
-                                <h2 class="box-number text-white"><span class="counter-number">1</span>k<span
-                                        class="fw-light">+</span></h2>
-                                <p class="box-text text-white">Successful Campaigns</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 counter-card-wrap">
-                            <div class="counter-card">
-                                <h2 class="box-number text-white"><span class="counter-number">400</span><span
-                                        class="fw-light">+</span></h2>
-                                <p class="box-text text-white">Monthly Donors</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 counter-card-wrap">
-                            <div class="counter-card">
-                                <h2 class="box-number text-theme2"><span class="counter-number">35</span>k<span
-                                        class="fw-light">+</span></h2>
-                                <p class="box-text text-white">Team Support</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="video-thumb1-1 video-box-center">
-                        <img src="/assets/img/normal/video-thumb1-1.png" alt="img">
-                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video"><i
-                                class="fa-sharp fa-solid fa-play"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--==============================
-    Brand Area
-    ==============================-->
-    {{-- <div class="overflow-hidden brand-area-1">
-        <div class="container">
-            <div class="brand-wrap1 bg-gray text-center" data-mask-src="/assets/img/shape/brand-bg-shape1.png">
-                <h3 class="brand-wrap-title">Trusted by over <span class="text-theme2"><span
-                            class="counter-number">90</span>K+</span> companies worldwide</h3>
-                <div class="swiper th-slider" id="brandSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5", "spaceBetween": "90"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="/assets/img/brand/brand1-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!--==============================
     Testimonial Area
     ==============================-->
     <section class="testi-area-1 space overflow-hidden" id="testi-sec">
@@ -948,7 +493,7 @@
                     </div>
                     <div class="col-auto">
                         <div class="sec-btn">
-                            <a href="contact.html" class="th-btn">View All Project<i
+                            <a href="{{ route('user.project') }}" class="th-btn">View All Project<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
                     </div>
@@ -956,52 +501,24 @@
                 <div class="slider-area">
                     <div class="swiper th-slider" id="ProjectSlider1"
                         data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
+
                         <div class="swiper-wrapper">
                             <!-- Single Item -->
-                            <div class="swiper-slide">
-                                <div class="project-card">
-                                    <div class="project-img">
-                                        <img src="/assets/img/project/project_1_1.png" alt="project image">
-                                    </div>
-                                    <div class="project-content">
-                                        <div class="project-card-bg-shape"
-                                            data-mask-src="/assets/img/shape/project-card-bg-shape1-1.png"></div>
-                                        <h3 class="project-title"><a href="project-details.html">Compassion
-                                                Connect</a></h3>
-                                        <p class="project-subtitle">Stronger Community</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-card">
-                                    <div class="project-img">
-                                        <img src="/assets/img/project/project_1_2.png" alt="project image">
-                                    </div>
-                                    <div class="project-content">
-                                        <div class="project-card-bg-shape"
-                                            data-mask-src="/assets/img/shape/project-card-bg-shape1-1.png"></div>
-                                        <h3 class="project-title"><a href="project-details.html">Child Educations</a>
-                                        </h3>
-                                        <p class="project-subtitle">Charity & Fundraising</p>
+                            @foreach ($projects as $project)
+                                <div class="swiper-slide">
+                                    <div class="project-card">
+                                        <div class="project-img">
+                                            <img src="{{ $project->image }}" alt="">
+                                        </div>
+                                        <div class="project-content">
+                                            <div class="project-card-bg-shape"
+                                                data-mask-src="/assets/img/shape/project-card-bg-shape1-1.png"></div>
+                                            <h3 class="project-title"><a href="project-details.html"></a>{{ $project->name }}</h3>
+                                            <p class="project-subtitle">{{ $project->description }}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-card">
-                                    <div class="project-img">
-                                        <img src="/assets/img/project/project_1_3.png" alt="project image">
-                                    </div>
-                                    <div class="project-content">
-                                        <div class="project-card-bg-shape"
-                                            data-mask-src="/assets/img/shape/project-card-bg-shape1-1.png"></div>
-                                        <h3 class="project-title"><a href="project-details.html">Nurturing Health</a>
-                                        </h3>
-                                        <p class="project-subtitle">Healing Hearts</p>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
 
                         </div>
                     </div>
@@ -1012,7 +529,7 @@
     <!--==============================
     Faq Area
     ==============================-->
-    <div class="overflow-hidden space-top">
+    <div class="overflow-hidden space-top space-bottom">
         <div class="shape-mockup faq-bg-shape1-1 jump" data-mask-src="/assets/img/normal/faq_1_3.png" data-top="15%"
             data-right="2%">
             <img src="/assets/img/normal/faq_1_3.png" alt="img">
@@ -1120,174 +637,6 @@
             </div>
         </div>
     </div>
-
-
-    <!--==============================
-    Blog Area
-    ==============================-->
-    <section class="space" id="blog-sec">
-        <div class="container">
-            <div class="title-area text-center">
-                <span class="sub-title">News & Articles</span>
-                <h2 class="sec-title">Our Latest News & Articles</h2>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="blogSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}, "autoHeight": "true"}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <a href="{{ route('user.blog.details') }}">
-                                        <div class="blog-img-shape1"
-                                            data-mask-src="/assets/img/blog/blog-card-bg-shape1-2.png"></div>
-                                        <img src="/assets/img/blog/blog_1_1.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-card-shape"
-                                        data-mask-src="/assets/img/blog/blog-card-bg-shape1-1.png"></div>
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fas fa-calendar"></i>July 16, 2024</a>
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">See Your Impact: Transparent
-                                            Donation Tracking</a></h3>
-                                    <a href="{{ route('user.blog') }}" class="th-btn">Read More <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <div class="blog-img-shape1"
-                                            data-mask-src="/assets/img/blog/blog-card-bg-shape1-2.png"></div>
-                                        <img src="/assets/img/blog/blog_1_2.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-card-shape"
-                                        data-mask-src="/assets/img/blog/blog-card-bg-shape1-1.png"></div>
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fas fa-calendar"></i>March 24, 2024</a>
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Every Contribution Counts:
-                                            Make a Difference</a></h3>
-                                    <a href="{{ route('user.blog') }}" class="th-btn">Read More <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <div class="blog-img-shape1"
-                                            data-mask-src="/assets/img/blog/blog-card-bg-shape1-2.png"></div>
-                                        <img src="/assets/img/blog/blog_1_3.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-card-shape"
-                                        data-mask-src="/assets/img/blog/blog-card-bg-shape1-1.png"></div>
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fas fa-calendar"></i>June 30, 2024</a>
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Real Stories, Real Impact:
-                                            Your Donations at Work</a></h3>
-                                    <a href="{{ route('user.blog') }}" class="th-btn">Read More <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <div class="blog-img-shape1"
-                                            data-mask-src="/assets/img/blog/blog-card-bg-shape1-2.png"></div>
-                                        <img src="/assets/img/blog/blog_1_1.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-card-shape"
-                                        data-mask-src="/assets/img/blog/blog-card-bg-shape1-1.png"></div>
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fas fa-calendar"></i>July 16, 2024</a>
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">See Your Impact: Transparent
-                                            Donation Tracking</a></h3>
-                                    <a href="blog-details.html" class="th-btn">Read More <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <div class="blog-img-shape1"
-                                            data-mask-src="/assets/img/blog/blog-card-bg-shape1-2.png"></div>
-                                        <img src="/assets/img/blog/blog_1_2.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-card-shape"
-                                        data-mask-src="/assets/img/blog/blog-card-bg-shape1-1.png"></div>
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fas fa-calendar"></i>March 24, 2024</a>
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Every Contribution Counts:
-                                            Make a Difference</a></h3>
-                                    <a href="blog-details.html" class="th-btn">Read More <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <div class="blog-img-shape1"
-                                            data-mask-src="/assets/img/blog/blog-card-bg-shape1-2.png"></div>
-                                        <img src="/assets/img/blog/blog_1_3.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-card-shape"
-                                        data-mask-src="/assets/img/blog/blog-card-bg-shape1-1.png"></div>
-                                    <div class="blog-meta">
-                                        <a href="blog.html"><i class="fas fa-calendar"></i>June 30, 2024</a>
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Real Stories, Real Impact:
-                                            Your Donations at Work</a></h3>
-                                    <a href="blog-details.html" class="th-btn">Read More <i
-                                            class="fas fa-arrow-up-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div> --}}
-
-                    </div>
-                </div>
-                <button data-slider-prev="#blogSlider1" class="slider-arrow slider-prev"><i
-                        class="far fa-arrow-left"></i></button>
-                <button data-slider-next="#blogSlider1" class="slider-arrow slider-next"><i
-                        class="far fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
 
 
 </x-guest-layout>

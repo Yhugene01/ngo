@@ -37,10 +37,9 @@ class RequestController extends Controller
         ]);
 
 
-
-        // Create donation
+        // Create Appeal
         $appeal = new Appeal();
-        $appeal->user_id = Auth::id();
+        $appeal->id = Auth::id();
         $appeal->name = $request->name;
         $appeal->address = $request->address;
         $appeal->postal_address = $request->postal_address;

@@ -19,7 +19,7 @@ Team Area
         <div class="container">
             <div class="row gy-40 gx-80">
                 <div class="col-xl-6">
-                    <h2 class="title mt-n2 mb-25">Let’s join our community
+                    <h2 class="title mt-n2 mb-25">Join our community
                         to become a volunteer</h2>
                     <div class="row">
                         <div class="col-md-6">

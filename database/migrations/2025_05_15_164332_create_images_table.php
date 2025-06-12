@@ -11,15 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('appeals', function (Blueprint $table) {
+        Schema::create('images', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('address');
-            $table->string('postal_address');
-            $table->string('phone');
-            $table->string('email');
-            $table->string('occupation');
-            $table->string('item');
+            $table->string('filename');
             $table->timestamps();
         });
     }
@@ -29,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('appeals');
+        Schema::dropIfExists('images');
     }
 };

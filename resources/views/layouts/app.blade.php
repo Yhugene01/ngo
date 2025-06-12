@@ -332,23 +332,8 @@
                                 <li><a href="{{ route('user.donation') }}">Donations</a></li>
                                 <li><a href="{{ route('user.volunteer') }}">Volunteers</a></li>
                                 <li><a href="{{ route('faq') }}">FAQS</a></li>
-                                <li><a href="{{ route('user.blog') }}">Blog</a></li>
-
-                                {{-- <li class="menu-item-has-children">
-                                    <a href="#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="{{ route('user.gallery') }}">Gallery</a></li>
-                                        <li><a href="{{ route('user.testimonial') }}">Testimonials</a></li>
-                                        <li><a href="error.html">Error Page</a></li>
-                                    </ul>
-                                </li> --}}
-                                {{-- <li class="menu-item-has-children">
-                                    <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-
-                                        <li><a href="{{ route('user.blog.details') }}">Blog Details</a></li>
-                                    </ul>
-                                </li> --}}
+                                <li><a href="{{ route('user.project') }}">Project</a></li>
+                                <li><a href="{{ route('user.gallery') }}">Gallery</a></li>
                                 <li>
                                     <a href="{{ route('user.contact.us') }}">Contact Us</a>
                                 </li>
@@ -365,12 +350,6 @@
                                 alt="img">Are you ready to help them? Let’s become a volunteers...</p>
                     </div>
                     <div class="header-button">
-                        <button type="button" class="icon-btn style2 searchBoxToggler d-lg-block d-none"><i
-                                class="far fa-search"></i></button>
-                        {{-- <button type="button" class="icon-btn sideMenuToggler">
-                            <span class="badge">5</span>
-                            <i class="fa-regular fa-cart-shopping"></i>
-                        </button> --}}
                         <a href="{{ route('user.donation') }}" class="th-btn style3 d-lg-block d-none"><i
                                 class="fas fa-heart me-2"></i> Donate Now</a>
                         <button type="button" class="icon-btn th-menu-toggle d-lg-none"><i
@@ -396,26 +375,7 @@
             <img src="/assets/img/shape/footer-bg-shape2.png" alt="img">
         </div>
         <div class="footer-top">
-            <div class="container">
-                <div class="subscribe-box">
-                    <div class="row gy-40 align-items-center justify-content-center">
-                        <div class="col-xl-6">
-                            <h4 class="subscribe-box_title">Subscribe to Our Newsletter</h4>
-                            <p class="subscribe-box_text">Regular inspections and feedback mechanisms</p>
-                        </div>
-                        <div class="col-xl-6 col-lg-8">
-                            <form class="newsletter-form">
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Enter Email Address"
-                                        required="">
-                                </div>
-                                <button type="submit" class="th-btn style3"><i
-                                        class="fas fa-paper-plane"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <div class="widget-area">
             <div class="container">
@@ -440,6 +400,8 @@
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
                                     <li><a href="{{ route('about.us') }}">About Us</a></li>
+                                    <li><a href="{{ route('user.donation') }}">Donate Now</a></li>
+                                    <li><a href="{{ route('user.volunteer') }}">Volunteer</a></li>
                                     <li><a href="{{ route('privacy.policy') }}">Privacy policy</a></li>
                                     <li><a href="{{ route('user.contact.us') }}">Contact Us</a></li>
                                 </ul>

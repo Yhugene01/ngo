@@ -17,11 +17,11 @@ Blog Area
 ==============================-->
     <section class="donation-details space-top space-extra2-bottom">
         <div class="container">
-            <div class="row gx-40">
+            <div class="row gx-40  d-flex justify-content-center align-items-center vh-100">
                 <div class="col-xxl-8 col-lg-7">
                     <div class="donation-form-v1">
 
-                        <h5 class="title mb-4" >Request for Mobility/Assistive device</h5>
+                        <h5 class="title mb-4">Request for Mobility/Assistive device</h5>
 
                         <form action="{{ route('request.now') }}" method="POST">@csrf
                             @foreach ($errors->all() as $error)
@@ -55,7 +55,12 @@ Blog Area
                                         placeholder="Position/Occupation">
                                 </div>
 
-                                <div class="form-group style-border col-md-8 col-sm-8 col-xs-12">
+                                <div class="form-group style-border col-md-12">
+                                    <input type="text" class="form-control" name="item" id="item"
+                                        placeholder="Item you want to request for">
+                                </div>
+
+                                {{-- <div class="form-group style-border col-md-8 col-sm-8 col-xs-12">
 
                                     <div class="dropdown dropend">
                                         <div class="btn btn-success style-border dropdown-toggle " type="button"
@@ -402,78 +407,14 @@ Blog Area
                                             </li>
                                         </ul>
                                     </div>
-
-
-
-
-                                </div>
-
+                                </div> --}}
                                 <div class="form-btn col-12 mt-4 mb-6">
                                     <button type="submit" class="th-btn"><i class="fas fa-heart me-2"></i>
-                                        Donate Now</button>
+                                        Send Request</button>
                                 </div>
-
-
                             </div>
                         </form>
-
-
                     </div>
-                </div>
-                <div class="col-xxl-4 col-lg-5">
-                    <aside class="sidebar-area donation-sidebar">
-                        <div class="widget  ">
-                            <div class="widget-donation-card">
-                                <div class="box-content">
-                                    <div class="box-thumb">
-                                        <a href="blog-details.html"><img
-                                                src="/assets/img/widget/widget-donation_card1_1.jpg"
-                                                alt="Blog Image"></a>
-                                    </div>
-                                    <h4 class="box-title"><a class="text-inherit" href="blog-details.html">Give
-                                            health
-                                            support for every
-                                            homeless poor children</a></h4>
-                                    <p class="box-text">Join our community of dedicated supporters by
-                                        becoming a member.</p>
-                                </div>
-                                <div class="donation-progress-wrap">
-                                    <div class="media-left">
-                                        <div class="progress">
-                                            <div class="progress-bar" style="width: 85%;">
-                                                <div class="progress-value">85%</div>
-                                            </div>
-                                        </div>
-                                        <div class="donation-progress-content">
-                                            <span class="donation-card_raise text-title">Raised<span
-                                                    class="ms-1 me-1">-</span>5M</span>
-                                            <span class="donation-card_goal text-theme">Goal<span
-                                                    class="ms-1 me-1">-</span>$10M</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="widget  " data-bg-src="/assets/img/bg/gray-bg2.png" data-overlay="gray"
-                            data-opacity="5">
-                            <div class="author-widget-wrap">
-                                <div class="author-tag">Organizer:</div>
-                                <div class="avater">
-                                    <img src="/assets/img/blog/blog-author.jpg" alt="avater">
-                                </div>
-                                <div class="author-info">
-                                    <h4 class="name"><a class="text-inherit" href="blog.html">Emanuel Marko</a>
-                                    </h4>
-                                    <span class="meta">
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
-                                    </span>
-                                    <span class="meta">
-                                        <a href="blog.html"><i class="fas fa-map-marker-alt"></i>New Jersey, USA</a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
                 </div>
             </div>
         </div>

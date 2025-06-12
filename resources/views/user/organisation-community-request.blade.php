@@ -16,39 +16,11 @@
 Team Area
 ==============================-->
     <section class="space">
-        <div class="container">
-            <div class="row gy-40 gx-80">
-                <div class="col-xl-6">
-                    <h2 class="title mt-n2 mb-25">Request for Outreach</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="page-img">
-                                <img src="/assets/img/team/add_team_1_1.png" alt="team">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="page-img">
-                                <img src="/assets/img/team/add_team_1_2.png" alt="team">
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="h5 mt-n2">Volunteer Requirements</h3>
-                    <p class="mb-30">Discover the inspiring stories of individuals and communities transformed by our
-                        programs. Our success stories highlight the real-life impact of your donations and the
-                        resilience of those we help. These narratives showcase the power of compassion and generosity.
-                    </p>
-                    <div class="checklist">
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i>Making this first true generator simply text</li>
-                            <li><i class="fas fa-check-circle"></i>Many desktop publish packages nothing</li>
-                            <li><i class="fas fa-check-circle"></i>If you are going to passage</li>
-                            <li><i class="fas fa-check-circle"></i>It has roots in a piece</li>
-                            <li><i class="fas fa-check-circle"></i>Sed ut perspiciatis unde iste natus</li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="container space-extra2-bottom">
+            <div class="row gy-40 gx-80 d-flex justify-content-center align-items-center vh-100">
                 <div class="col-xl-6">
                     <div class="add-team-form">
+                         <h2 class="title mt-n2 mb-25"> Outreach Request</h2>
                         <form action="{{ route('request.now') }}" method="POST">@csrf
                             @foreach ($errors->all() as $error)
                                 <p class="text-danger">{{ $error }}</p>

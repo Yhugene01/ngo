@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('volunteers', function (Blueprint $table) {
             $table->id();
-            $table->string('user_id');
             $table->string('name');
             $table->string('address');
             $table->string('postal_address');

@@ -57,7 +57,12 @@ Blog Area
                                         placeholder="Position/Occupation">
                                 </div>
 
-                                <div class="form-group style-border col-md-8 col-sm-8 col-xs-12">
+                                <div class="form-group style-border col-md-12">
+                                    <input type="text" class="form-control" name="item" id="item"
+                                        placeholder="Item you want to donate">
+                                </div>
+
+                                {{-- <div class="form-group style-border col-md-8 col-sm-8 col-xs-12">
 
                                     <div class="dropdown dropend">
                                         <div class="btn btn-success style-border dropdown-toggle " type="button"
@@ -212,7 +217,7 @@ Blog Area
 
 
 
-                                </div>
+                                </div> --}}
 
                                 <div class="form-btn col-12 mt-4">
                                     <button type="submit" class="th-btn"><i class="fas fa-heart me-2"></i>
@@ -239,8 +244,6 @@ Blog Area
                                     <h4 class="box-title"><a class="text-inherit" href="blog-details.html">Give
                                             health
                                             support by donating medical equipment.</a></h4>
-                                    <p class="box-text">Join our community of dedicated supporters by
-                                        becoming a member.</p>
                                 </div>
 
                             </div>
