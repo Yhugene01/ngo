@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Donat - Charity & Donation HTML Template - Home One</title>
+    <title>Donate4healthcharity</title>
     <meta name="author" content="Donat">
     <meta name="description" content="Donat - Charity & Donation HTML Template">
     <meta name="keywords" content="Donat - Charity & Donation HTML Template">
@@ -26,10 +26,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicons/Donate_4_health-removebg-preview.png">
     <link rel="manifest" href="/assets/img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png">
@@ -229,26 +226,7 @@
             </div>
         </div>
     </div>
-    <div class="color-scheme-wrap active">
-        <button class="switchIcon"><i class="fa-solid fa-palette"></i></button>
-        <h3 class="color-scheme-wrap-title text-center">Color Switcher</h3>
-        <h4 class="color-scheme-wrap-subtitle text-center">Theme Color</h4>
-        <div class="color-switch-btns">
-            <button data-color="#1A685B"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#f34e3a"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#FF4857"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#3843C1"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#FF7E02"><i class="fa-solid fa-droplet"></i></button>
-        </div>
-        <h4 class="color-scheme-wrap-subtitle mt-20 text-center">Secondary Color</h4>
-        <div class="secondary-color-switch-btns">
-            <button data-secondary-color="#FFAC00"><i class="fa-solid fa-droplet"></i></button>
-            <button data-secondary-color="#F41E1E"><i class="fa-solid fa-droplet"></i></button>
-            <button data-secondary-color="#f34e3a"><i class="fa-solid fa-droplet"></i></button>
-            <button data-secondary-color="#FF4857"><i class="fa-solid fa-droplet"></i></button>
-            <button data-secondary-color="#3843C1"><i class="fa-solid fa-droplet"></i></button>
-        </div>
-    </div><!--==============================
+<!--==============================
  Header Area
 ==============================-->
     <header class="th-header header-default">
@@ -257,7 +235,7 @@
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-logo">
-                            <a href="index.html"><img src="/assets/img/logo.svg" alt="Donat"></a>
+                            <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png" alt="Donat"></a>
                         </div>
                     </div>
                     <div class="col-auto d-none d-md-block">
@@ -299,7 +277,7 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-text">Email us any time:</p>
-                                    <h4 class="box-title"><a href="mailto:info@donat.com">info@donat.com</a></h4>
+                                    <h4 class="box-title"><a href="mailto:info@donat.com">info@donate4healthcharity.com</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -384,10 +362,10 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="/assets/img/logo-white.svg" alt="Donat"></a>
+                                    <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png" alt="Donat"></a>
                                 </div>
                                 <p class="about-text"> Our secure online donation platform allows you to make
-                                    contributions quickly and safely. Choose from various.</p>
+                                    contributions quickly and safely.</p>
                                 <a href="{{ route('user.donation') }}" class="th-btn"><i
                                         class="fas fa-heart me-2"></i> Donate
                                     Now</a>
@@ -435,7 +413,7 @@
                                     </div>
                                     <div class="box-content">
                                         <p class="box-text">Email us any time:</p>
-                                        <h4 class="box-title"><a href="mailto:info@donat.com">info@donat.com</a></h4>
+                                        <h4 class="box-title"><a href="mailto:info@donat.com">info@donate4healthcharity.com</a></h4>
                                     </div>
                                 </div>
                                 <div class="th-social style2">
@@ -446,18 +424,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap">
-            <div class="container">
-                <div class="row justify-content-center gy-3 align-items-center">
-                    <div class="col-lg-12">
-                        <p class="copyright-text text-center">
-                            <i class="fal fa-copyright"></i> Copyright 2024 <a href="index.html">Donat</a>. All Rights
-                            Reserved.
-                        </p>
                     </div>
                 </div>
             </div>

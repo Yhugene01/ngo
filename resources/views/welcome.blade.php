@@ -129,10 +129,9 @@
                                 alt="Icon">
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.outreach.request') }}">Request for Medical
-                                    equipment</a></h3>
-                            <p class="box-text">Request for health/social care, mobility device, as an individual or
-                                organisation and also request for community healthcare outreach.</p>
+                            <h3 class="box-title"><a href="{{ route('user.outreach.request') }}">Medical Equipment Request</a></h3>
+                            <p class="box-text">Request for health care, mobility device, as an individual or
+                                organisation and also request for healthcare outreach.</p>
                             <a href="{{ route('user.outreach.request') }}" class="th-btn">Request Now<i
                                     class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
@@ -180,7 +179,7 @@
                 <div class="col-xl-5">
                     <div class="about-wrap1">
                         <div class="title-area mb-30">
-                            <span class="sub-title before-none">About Us: Donate4Health</span>
+                            <span class="sub-title before-none">About Us: Donate4HealthCharity</span>
                             <h2 class="sec-title">We Believe that We can Save More Life's with you</h2>
                             <p class="">Donate4Health Initiative is a non-governmental organization committed to
                                 providing medical equipment and mobility/assistive devices for underprivileged
