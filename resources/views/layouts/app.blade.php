@@ -80,95 +80,9 @@
 </head>
 
 <body>
-
-    <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
     <!--********************************
    Code Start From Here
  ******************************** -->
-
-    <!--==============================
-     Preloader
-  ==============================-->
-    {{-- <div class="preloader ">
-        <button class="th-btn style2 preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <span class="loader">
-                Donat
-                <span class="loading-text">Donat</span>
-            </span>
-        </div>
-    </div><!--============================== --}}
-
-    <div class="sidemenu-wrapper sidemenu-cart ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget woocommerce widget_shopping_cart">
-                <h3 class="widget_title">Shopping cart</h3>
-                <div class="widget_shopping_cart_content">
-                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="/assets/img/product/product_thumb_1_1.png"
-                                    alt="Cart Image">Books</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="/assets/img/product/product_thumb_1_2.png"
-                                    alt="Cart Image">Medicine</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="/assets/img/product/product_thumb_1_3.png"
-                                    alt="Cart Image">Dress</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="/assets/img/product/product_thumb_1_4.png"
-                                    alt="Cart Image">Chair</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="/assets/img/product/product_thumb_1_5.png"
-                                    alt="Cart Image">Cloths</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="woocommerce-mini-cart__total total">
-                        <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
-                    </p>
-                    <p class="woocommerce-mini-cart__buttons buttons">
-                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="popup-search-box d-none d-lg-block">
         <button class="searchClose"><i class="far fa-times"></i></button>
         <form action="#">
@@ -226,12 +140,12 @@
             </div>
         </div>
     </div>
-<!--==============================
+    <!--==============================
  Header Area
 ==============================-->
     <header class="th-header header-default">
         <div class="menu-top">
-            <div class="container">
+            {{-- <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-logo">
@@ -291,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <div class="sticky-wrapper">
             <!-- Main Menu Area -->
@@ -315,15 +229,14 @@
                                 <li>
                                     <a href="{{ route('user.contact.us') }}">Contact Us</a>
                                 </li>
-                                {{-- <li>
-                                    <a href="contact.html">Login</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Register</a>
-                                </li> --}}
 
                             </ul>
                         </nav>
+                        <div class="ms-auto">
+                            <div class="header-logo w-50">
+                                <a href=""><img src="/assets/img/Donate_4_health-icon.png" alt="Logo"></a>
+                            </div>
+                        </div>
                         <p class="header-notice"><img class="me-1" src="/assets/img/icon/heart-icon.svg"
                                 alt="img">Are you ready to help them? Let’s become a volunteers...</p>
                     </div>
@@ -339,8 +252,6 @@
     </header>
 
     {{ $slot }}
-
-
 
     <!--==============================
  Footer Area
@@ -362,7 +273,8 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png" alt="Donat"></a>
+                                    <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png"
+                                            alt="Donat"></a>
                                 </div>
                                 <p class="about-text"> Our secure online donation platform allows you to make
                                     contributions quickly and safely.</p>
@@ -413,7 +325,8 @@
                                     </div>
                                     <div class="box-content">
                                         <p class="box-text">Email us any time:</p>
-                                        <h4 class="box-title"><a href="mailto:info@donat.com">info@donate4healthcharity.com</a></h4>
+                                        <h4 class="box-title"><a
+                                                href="mailto:info@donat.com">info@donate4healthcharity.com</a></h4>
                                     </div>
                                 </div>
                                 <div class="th-social style2">

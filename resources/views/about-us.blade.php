@@ -23,21 +23,10 @@ Feature Area
         </div>
         <div class="container">
             <div class="row gy-4 align-items-center">
-                <div class="col-xl-7">
-                    <div class="img-box1">
-                        <div class="img1" data-mask-src="/assets/img/normal/about_1_1-mask.png">
-                            <img src="/assets/img/normal/about_1_1.png" alt="About">
-                        </div>
-                        <div class="about-shape1-1 jump">
-                            <img src="/assets/img/shape/about_shape1_1.png" alt="img">
-                        </div>
-                    </div>
-                </div>
                 <div class="col-xl-5">
                     <div class="about-wrap1">
                         <div class="title-area mb-30">
-                            <span class="sub-title before-none">Who we are</span>
-                            <h2 class="sec-title">About us: Donate4Health</h2>
+                            <h1 class="title text-center">About us: Donate4Health</h1>
                             <p class="">Donate4Health Initiative is a non-governmental organization committed to
                                 providing medical equipment and mobility/assistive devices for underprivileged
                                 individuals and health or social care facilities, particularly in disadvantaged and
@@ -50,12 +39,12 @@ Feature Area
                             </p>
                         </div>
                         <div class="title-area mb-30">
-                            <span class="sub-title before-none"> Our Vision</span>
+                            <h2><span class="title before-none text-center"> Our Vision</span></h2>
                             <p>To build a community where everyone has access to essential medical equipment and
                                 mobility/assistive devices.</p>
                         </div>
                         <div class="title-area mb-30">
-                            <span class="sub-title before-none">Our Mission</span>
+                           <h2> <span class="title before-none">Our Mission</span></h2>
                             <p>Identifies, solicits, gathers, organises and distributes medical equipment and
                                 mobility/assistive devices to disadvantaged individuals and health and social care
                                 facilities across Nigeria</p>
@@ -67,12 +56,16 @@ Feature Area
 
                         <div class="checklist style2 list-two-column">
                             <ul>
-                                <li>Charity For Foods</li>
-                                <li data-theme-color="var(--theme-color2)">Charity For Water</li>
-                                <li data-theme-color="#FF5528">Charity For Education</li>
-                                <li data-theme-color="#122F2A">Charity For Medical</li>
+
+                                <li data-theme-color="var(--theme-color2)">Charity For Mobility Devices</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Health Care</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Social Care</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Medical Equipment</li>
+
                             </ul>
                         </div>
+
+
 
                     </div>
                 </div>
@@ -86,7 +79,8 @@ Team Area
         <div class="shape-mockup team-bg-shape3-1 d-xxl-block d-none" data-top="0%" data-left="0%" data-bottom="0"><img
                 src="/assets/img/shape/team_bg_shape3_1.png" alt="img"></div>
         <div class="shape-mockup team-bg-shape3-2 d-xxl-block d-none" data-top="0%" data-right="0%" data-bottom="0">
-            <img src="/assets/img/shape/team_bg_shape3_2.png" alt="img"></div>
+            <img src="/assets/img/shape/team_bg_shape3_2.png" alt="img">
+        </div>
         <div class="shape-mockup team-bg-shape3-3 spin d-xxl-block d-none" data-top="15%" data-left="20%">
             <div class="color-masking2">
                 <div class="masking-src" data-mask-src="/assets/img/shape/team_bg_shape3_3.png"></div>

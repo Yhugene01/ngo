@@ -16,51 +16,76 @@
                                 <div class="col-xl-12">
                                     <div class="hero-style1 text-center">
                                         <span class="sub-title justify-content-center" data-ani="slideinup"
-                                            data-ani-delay="0.2s">Give Hope For Homeless</span>
-                                        <h1 class="hero-title text-white">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Helping Each Other Can </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Make World Better </span>
-                                        </h1>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner" data-bg-src="/assets/img/hero/hero_bg_1_2.jpg" data-overlay="black4"
-                        data-opacity="5">
-                        <div class="hero-bg-shape1-1">
-                            <img src="/assets/img/hero/hero-bg-shape1-1.png" alt="img">
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-12">
-                                    <div class="hero-style1 text-center">
-                                        <span class="sub-title justify-content-center" data-ani="slideinup"
                                             data-ani-delay="0.2s">Welcome to Donate4Health</span>
                                         <h1 class="hero-title text-white">
                                             <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Every Donation Counts </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Every Heart Matters </span>
+                                              Every Donation Counts</span>
                                         </h1>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
     <!--======== / Hero Section ========-->
+    <!--==============================
+    About Area
+    ==============================-->
+    <div class="overflow-hidden space" id="about-sec">
+        <div class="shape-mockup about-bg-shape1-1 jump-reverse" data-top="10%" data-right="5%">
+            <img src="/assets/img/shape/heart-shape1.png" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-xl-5">
+                    <div class="about-wrap1">
+                        <div class="title-area">
+                            <h1><span class="title before-none justify-content-center">About Us: </span></h1>
+                            <h2><span>Donate4Health</span></h2>
+
+                            <p class="">Donate4Health Initiative is a non-governmental organization
+                                committed to
+                                providing medical equipment and mobility/assistive devices for underprivileged
+                                individuals and health or social care facilities, particularly in disadvantaged and
+                                geographically underserved areas of Nigeria. We promote sustainability by repurposing
+                                donated medical equipment and mobility/assistive devices from individuals and
+                                organisations locally and internationally. Additionally, we utilise monetary
+                                contributions from philanthropists and local or international organisations to purchase
+                                medical equipment and mobility/assistive devices, as well as to organise outreaches,
+                                manage logistics, and support other activities related to the Donate4Health Initiative.
+                            </p>
+                        </div>
+                        <div class="title-area mb-30">
+                            <h2><span class="title before-none"> Our Vision</span></h2>
+                            <p>To build a community where everyone has access to essential medical equipment and
+                                mobility/assistive devices.</p>
+                        </div>
+                        <div class="title-area mb-30">
+                            <h2><span class="title before-none">Our Mission</span></h2>
+                            <p>Identifies, solicits, gathers, organises and distributes medical equipment and
+                                mobility/assistive devices to disadvantaged individuals and health and social care
+                                facilities across Nigeria</p>
+                        </div>
+                        <div class="checklist style2 list-two-column">
+                            <ul>
+
+                                <li data-theme-color="var(--theme-color2)">Charity For Mobility Devices</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Health Care</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Social Care</li>
+                                <li data-theme-color="var(--theme-color2)">Charity For Medical Equipment</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!--==============================
     Service Area
     ==============================-->
@@ -85,133 +110,14 @@
                 <div class="col-lg-7">
                     <div class="title-area text-center">
                         <span class="sub-title">Charity Services</span>
-                        <h2 class="sec-title">We Do it for all People
-                            Humanist Services</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row gy-30 gx-30 justify-content-center">
-                <div class="col-xl-3 col-md-6">
-                    <div class="service-card">
-                        <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/volunteering.png" width="80" height="80"
-                                alt="Icon">
-                        </div>
-                        <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.volunteer') }}">Become a volunteer</a></h3>
-                            <p class="box-text">Together, we can create a better world by contributing to projects that
-                                benefits individuals and our communities. Join us now.</p>
-                            <a href="{{ route('user.volunteer') }}" class="th-btn">Join Us Today<i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="service-card">
-                        <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/heart.png" width="80" height="80"
-                                alt="Icon">
-                        </div>
-                        <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.donation') }}">Donate now</a></h3>
-                            <p class="box-text">Join us in putting smiles on the face of millions of people by donating
-                                to our charity program, either by monetary donations or in providing medical equipment.
-                            </p>
-                            <a href="{{ route('user.donation') }}" class="th-btn">Donate here<i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="service-card">
-                        <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/wheelchair.png" width="80" height="80"
-                                alt="Icon">
-                        </div>
-                        <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.outreach.request') }}">Medical Equipment Request</a></h3>
-                            <p class="box-text">Request for health care, mobility device, as an individual or
-                                organisation and also request for healthcare outreach.</p>
-                            <a href="{{ route('user.outreach.request') }}" class="th-btn">Request Now<i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="service-card">
-                        <div class="box-icon">
-                            <img src="/assets/img/icon/service-icon/handshake.png" width="80" height="80"
-                                alt="Icon">
-                        </div>
-                        <div class="box-content">
-                            <h3 class="box-title"><a href="{{ route('user.contact.us') }}">Contact us</a></h3>
-                            <p class="box-text">We would love to hear from you! Whether you have questions, want to
-                                partner with us, or are looking for ways to support our mission, feel free to reach out.
-                            </p>
-                            <a href="{{ route('user.contact.us') }}" class="th-btn">Contact Us<i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                        </div>
+                        <h2 class="sec-title">Donate Life-Saving Medical Equipment</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--==============================
-    About Area
-    ==============================-->
-    <div class="overflow-hidden space" id="about-sec">
-        <div class="shape-mockup about-bg-shape1-1 jump-reverse" data-top="10%" data-right="5%">
-            <img src="/assets/img/shape/heart-shape1.png" alt="shape">
-        </div>
-        <div class="container">
-            <div class="row gy-4 align-items-center">
-                <div class="col-xl-7">
-                    <div class="img-box1">
-                        <div class="img1" data-mask-src="/assets/img/normal/about_1_1-mask.png">
-                            <img src="/assets/img/normal/about_1_1.png" alt="About">
-                        </div>
-                        <div class="about-shape1-1 jump">
-                            <img src="/assets/img/shape/about_shape1_1.png" alt="img">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5">
-                    <div class="about-wrap1">
-                        <div class="title-area mb-30">
-                            <span class="sub-title before-none">About Us: Donate4HealthCharity</span>
-                            <h2 class="sec-title">We Believe that We can Save More Life's with you</h2>
-                            <p class="">Donate4Health Initiative is a non-governmental organization committed to
-                                providing medical equipment and mobility/assistive devices for underprivileged
-                                individuals and health or social care facilities, particularly in disadvantaged and
-                                geographically underserved areas of Nigeria. We promote sustainability by repurposing
-                                donated medical equipment and mobility/assistive devices from individuals and
-                                organisations locally and internationally. Additionally, we utilise monetary
-                                contributions from philanthropists and local or international organisations to purchase
-                                medical equipment and mobility/assistive devices, as well as to organise outreaches,
-                                manage logistics, and support other activities related to the Donate4Health Initiative.
-                            </p>
-                        </div>
-                        <div class="checklist style2 list-two-column">
-                            <ul>
 
-                                <li data-theme-color="var(--theme-color2)">Charity For Mobility Devices</li>
-                                <li data-theme-color="var(--theme-color2)">Charity For Health Care</li>
-                                <li data-theme-color="var(--theme-color2)">Charity For Social Care</li>
-                                <li data-theme-color="var(--theme-color2)">Charity For Medical Equipment</li>
-
-                            </ul>
-                        </div>
-                        <div class="btn-wrap mt-40">
-                            <a href="{{ route('about.us') }}" class="th-btn">About more<i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
     <!--==============================
     Cta Area
     ==============================-->
@@ -282,55 +188,103 @@
         <div class="cta-bg-shape2-4 shape-mockup jump d-md-block d-none" data-bottom="5%" data-right="0"><img
                 src="/assets/img/shape/cta_shape2_4.png" alt="img"></div>
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center space-bottom">
                 <div class="col-lg-7">
                     <div class="title-area text-center mb-0">
-                        <h2 class="sec-title text-white">Our Doors Are Always Open to More People Who Want to Support
-                            Each Other!</h2>
+                        <h2 class="sec-title text-white">Meet the team!</h2>
+                        <h2 class="sec-title text-white">Our Board</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0 justify-content-end">
+                <div class="col-lg-5">
+                    <div class="swiper th-slider testi-thumb-slider1"
+                        data-slider-options='{"effect":"fade","loop":false}'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi-box-img">
+                                    <img class="testi-img" src="/assets/img/testimonial/testi_1_2.png"
+                                        alt="img">
+                                    <div class="testi-card_review">
+                                        <i class="fas fa-star"></i>
+                                        5.0
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="testi-slider1">
+                        <div class="swiper th-slider testimonial-slider1" id="testiSlide1"
+                            data-slider-options='{"loop":false,"paginationType":"progressbar","effect":"fade", "autoHeight": "true", "thumbs":{"swiper":".testi-thumb-slider1"}}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-card">
+                                        <p class="box-text">“Our donation process uses the latest encryption technology
+                                            to protect your personal and financial information. Donate with confidence
+                                            knowing Stay informed about our upcoming events and campaigns. Whether it's
+                                            a fundraising gala, a charity run, or a community outreach program, there
+                                            are plenty of ways to get involved and support our cause. Check our event
+                                            calendar for details. We prioritize your security.”</p>
+                                        <h3 class="box-title">Oluwatoyin Adenike Adeniji</h3>
+                                        <p class="box-desig">Chairperson</p>
+                                        <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-card">
+                                        <p class="box-text">“Our donation process uses the latest encryption technology
+                                            to protect your personal and financial information. Donate with confidence
+                                            knowing Stay informed about our upcoming events and campaigns. Whether it's
+                                            a fundraising gala, a charity run, or a community outreach program, there
+                                            are plenty of ways to get involved and support our cause. Check our event
+                                            calendar for details. We prioritize your security.”</p>
+                                        <h3 class="box-title">Ikegwu Jude</h3>
+                                        <p class="box-desig">Secretary</p>
+                                        <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-card">
+                                        <p class="box-text">“Our donation process uses the latest encryption technology
+                                            to protect your personal and financial information. Donate with confidence
+                                            knowing Stay informed about our upcoming events and campaigns. Whether it's
+                                            a fundraising gala, a charity run, or a community outreach program, there
+                                            are plenty of ways to get involved and support our cause. Check our event
+                                            calendar for details. We prioritize your security.”</p>
+                                        <h3 class="box-title">Temitayo Adeniji</h3>
+                                        <p class="box-desig">Trustee</p>
+                                        <div class="slider-pagination"></div>
+                                        <div class="slider-pagination2"></div>
+                                        <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="icon-box">
+                            <button data-slider-prev="#testiSlide1"
+                                class="slider-arrow default style-border slider-prev"><i
+                                    class="far fa-arrow-left"></i></button>
+                            <button data-slider-next="#testiSlide1"
+                                class="slider-arrow default style-border slider-next"><i
+                                    class="far fa-arrow-right"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section><!--==============================
-    Story Area
-    ==============================-->
-    <div class="story-area-1 overflow-hidden space">
-        <div class="container">
-            <div class="row gy-40 gx-80 justify-content-between flex-row-reverse align-items-center">
-                <div class="col-xl-7">
-                    <div class="story-img-box1">
-                        <div class="img1">
-                            <img src="/assets/img/normal/story_1_1.png" alt="img">
-                        </div>
-                        <div class="story-shape1-1 jump-reverse">
-                            <img src="/assets/img/shape/story_shape1_1.png" alt="img">
-                        </div>
-                        <div class="story-card movingX">
-                            <h5 class="box-title">Adam Cruz</h5>
-                            <p class="box-text">Our success stories highlight the
-                                real life impact of your donations &
-                                the resilience of those we help.
-                                These narratives showcase the
-                                power of compassion.</p>
-                            <div class="quote-icon" data-mask-src="/assets/img/icon/quote.svg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5">
-                    <div class="story-wrap1">
-                        <div class="title-area mb-0">
-                            <span class="sub-title before-none">Success Story</span>
-                            <h2 class="sec-title">We Help Fellow Nonprofits Access the Funding Tools, Training</h2>
-                            <p class="mt-30">Our secure online donation platform allows you to make contributions
-                                quickly and safely. Choose from various payment methods and set up one-time.exactly.</p>
 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div><!--==============================
 
     Testimonial Area
     ==============================-->
@@ -358,36 +312,6 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testi-box-img">
-                                    <img class="testi-img" src="/assets/img/testimonial/testi_1_1.png"
-                                        alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-box-img">
-                                    <img class="testi-img" src="/assets/img/testimonial/testi_1_2.png"
-                                        alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-box-img">
-                                    <img class="testi-img" src="/assets/img/testimonial/testi_1_1.png"
-                                        alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-box-img">
                                     <img class="testi-img" src="/assets/img/testimonial/testi_1_2.png"
                                         alt="img">
                                     <div class="testi-card_review">
@@ -406,53 +330,14 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testi-card">
-                                        <p class="box-text">“Stay informed about our upcoming events and campaigns.
-                                            Whether it's a fundraising gala, a charity run, or a community outreach
-                                            program, there are plenty of ways to get involved and support our cause.
-                                            Check our event calendar for details. We prioritize your security. Our
-                                            donation process uses the latest encryption technology to protect your
-                                            personal and financial information. Donate with confidence knowing”</p>
-                                        <h3 class="box-title">Alex Furnandes</h3>
-                                        <p class="box-desig">CEO, Founder</p>
-                                        <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-card">
                                         <p class="box-text">“Our donation process uses the latest encryption technology
                                             to protect your personal and financial information. Donate with confidence
                                             knowing Stay informed about our upcoming events and campaigns. Whether it's
                                             a fundraising gala, a charity run, or a community outreach program, there
                                             are plenty of ways to get involved and support our cause. Check our event
                                             calendar for details. We prioritize your security.”</p>
-                                        <h3 class="box-title">Mustafa Kamal</h3>
-                                        <p class="box-desig">CEO, Founder</p>
-                                        <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-card">
-                                        <p class="box-text">“Stay informed about our upcoming events and campaigns.
-                                            Whether it's a fundraising gala, a charity run, or a community outreach
-                                            program, there are plenty of ways to get involved and support our cause.
-                                            Check our event calendar for details. We prioritize your security. Our
-                                            donation process uses the latest encryption technology to protect your
-                                            personal and financial information. Donate with confidence knowing”</p>
-                                        <h3 class="box-title">Alex Furnandes</h3>
-                                        <p class="box-desig">CEO, Founder</p>
-                                        <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-card">
-                                        <p class="box-text">“Our donation process uses the latest encryption technology
-                                            to protect your personal and financial information. Donate with confidence
-                                            knowing Stay informed about our upcoming events and campaigns. Whether it's
-                                            a fundraising gala, a charity run, or a community outreach program, there
-                                            are plenty of ways to get involved and support our cause. Check our event
-                                            calendar for details. We prioritize your security.”</p>
-                                        <h3 class="box-title">Mustafa Kamal</h3>
-                                        <p class="box-desig">CEO, Founder</p>
+                                        <h3 class="box-title">Oluwatoyin Adenike Adeniji</h3>
+                                        <p class="box-desig">Chairperson</p>
                                         <div class="quote-icon" data-mask-src="/assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
@@ -512,7 +397,8 @@
                                         <div class="project-content">
                                             <div class="project-card-bg-shape"
                                                 data-mask-src="/assets/img/shape/project-card-bg-shape1-1.png"></div>
-                                            <h3 class="project-title"><a href="project-details.html"></a>{{ $project->name }}</h3>
+                                            <h3 class="project-title"><a
+                                                    href="project-details.html"></a>{{ $project->name }}</h3>
                                             <p class="project-subtitle">{{ $project->description }}</p>
                                         </div>
                                     </div>
@@ -528,7 +414,7 @@
     <!--==============================
     Faq Area
     ==============================-->
-    <div class="overflow-hidden space-top space-bottom">
+    {{-- <div class="overflow-hidden space-top space-bottom">
         <div class="shape-mockup faq-bg-shape1-1 jump" data-mask-src="/assets/img/normal/faq_1_3.png" data-top="15%"
             data-right="2%">
             <img src="/assets/img/normal/faq_1_3.png" alt="img">
@@ -635,7 +521,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
 </x-guest-layout>

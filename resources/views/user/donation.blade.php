@@ -30,11 +30,6 @@ Donation Area
             <div class="row gy-30">
                 <div class="col-xl-6">
                     <div class="donation-card style3">
-                        <div class="box-thumb">
-                            <img src="/assets/img/donation/donation2-1.png" alt="image">
-                            <div class="donation-card-shape"
-                                data-mask-src="/assets/img/donation/donation-card-shape2-1.png"></div>
-                        </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Medical equipment and mobility/assistive
                                     devices</a></h3>
@@ -51,11 +46,6 @@ Donation Area
 
                 <div class="col-xl-6">
                     <div class="donation-card style3">
-                        <div class="box-thumb">
-                            <img src="/assets/img/donation/donation2-2.png" alt="image">
-                            <div class="donation-card-shape"
-                                data-mask-src="/assets/img/donation/donation-card-shape2-1.png"></div>
-                        </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Financial Giving</a></h3>
                             <p>
@@ -71,13 +61,8 @@ Donation Area
                     </div>
                 </div>
 
-                <div class="col-xl-12">
+                <div class="col-xl-6 align-items-center">
                     <div class="donation-card style3">
-                        <div class="box-thumb">
-                            <img src="/assets/img/donation/donation2-3.png" alt="image">
-                            <div class="donation-card-shape"
-                                data-mask-src="/assets/img/donation/donation-card-shape2-1.png"></div>
-                        </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Volunteer Opportunities</a></h3>
                             <p>Join our team of passionate volunteers and help create positive change in your community. Whether it’s a few hours a week or just one event, your time can make a real impact. Learn new skills, meet great people, and give back in a meaningful way. Sign up now and be the change!.

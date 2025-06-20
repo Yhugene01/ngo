@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Donate4Healthcharity</title>
+    <title>Donate4Health</title>
     <meta name="author" content="Donat">
     <meta name="description" content="Donat - Charity & Donation HTML Template">
     <meta name="keywords" content="Donat - Charity & Donation HTML Template">
@@ -26,7 +26,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png"  href="/assets/img/favicons/Donate_4_health-removebg-preview.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicons/Donate_4_health-removebg-preview.png">
     <link rel="manifest" href="/assets/img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png">
@@ -69,15 +69,12 @@
  ******************************** -->
 
     <header class="th-header header-default">
+
         <div class="menu-top">
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-logo">
-                            <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png" alt="Donat"></a>
-                        </div>
-                    </div>
-                    <div class="col-auto d-none d-md-block">
+
+                    {{-- <div class="col-auto d-none d-md-block">
                         <div class="info-card-wrap">
                             <div class="info-card">
                                 <div class="box-icon">
@@ -120,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="col-auto header-social-col">
                         <div class="th-social">
                             <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -154,15 +151,14 @@
                                 <li>
                                     <a href="{{ route('user.contact.us') }}">Contact Us</a>
                                 </li>
-                                {{-- <li>
-                                    <a href="{{ route('login') }}">Login</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('register') }}">Register</a>
-                                </li> --}}
 
                             </ul>
                         </nav>
+                        <div class="ms-auto">
+                            <div class="header-logo w-50">
+                                <a href=""><img src="/assets/img/Donate_4_health-icon.png" alt="Logo"></a>
+                            </div>
+                        </div>
                         <p class="header-notice"><img class="me-1" src="/assets/img/icon/heart-icon.svg"
                                 alt="img">Are you ready to help them? Let’s become a volunteers...</p>
                     </div>
@@ -202,7 +198,8 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png" alt="Donat"></a>
+                                    <a href="index.html"><img src="/assets/img/Donate_4_health-icon.png"
+                                            alt="Donat"></a>
                                 </div>
                                 <p class="about-text"> Our secure online donation platform allows you to make
                                     contributions quickly and safely.</p>
@@ -252,14 +249,14 @@
                                     </div>
                                     <div class="box-content">
                                         <p class="box-text">Email us any time:</p>
-                                        <h4 class="box-title"><a href="mailto:info@donat.com">info@donate4healthcharity.com</a></h4>
+                                        <h4 class="box-title"><a
+                                                href="mailto:info@donat.com">info@donate4health.com</a></h4>
                                     </div>
                                 </div>
                                 <div class="th-social style2">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -267,18 +264,6 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="copyright-wrap">
-            <div class="container">
-                <div class="row justify-content-center gy-3 align-items-center">
-                    <div class="col-lg-12">
-                        <p class="copyright-text text-center">
-                            <i class="fal fa-copyright"></i> Copyright 2024 <a href="index.html">Donat</a>. All Rights
-                            Reserved.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
     </footer>
 
     <!--********************************
